@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # composer
 Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you. just like maven in java and npm im javascript
 
@@ -34,3 +35,7 @@ composer update
 
 # Project Structure
 [Basic project structure](https://github.com/sudeep611/PHP_Project_Getting_Started)
+=======
+# php-composer-notes
+Composer is a tool for dependency management in PHP.
+>>>>>>> f317dfd90832f6ac77eaa1479a38cccb1f065e11
