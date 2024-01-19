@@ -38,6 +38,7 @@ composer dump-autoload
 composer dump-autoload -o
 // o stands for optimize
 ```
+###### Run this everytime you change the autoload property in composer.json to reload the autoloader
 
 # What is autoloader
 - Autoloader is process of loading(including/ requiring) all the .php files in our entire project so that we can just use namespaces to reuse our code.
