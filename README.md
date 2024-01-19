@@ -29,6 +29,11 @@ composer install
 composer update
 ```
 
+- Update autoloader
+```
+composer dump-autoload
+```
+
 # What is packagist.org
 [Packagist.org](https://packagist.org/) is like the maven repository in java where you can see the dependencies available to be downloaded.
 
