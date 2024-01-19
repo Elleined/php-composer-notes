@@ -42,12 +42,12 @@ composer dump-autoload -o
 # What is autoloader
 - Autoloader is process of loading(including/ requiring) all the .php files in our entire project so that we can just use namespaces to reuse our code.
 
-## We can just require_once the vendor/autoload.php in index.php
+#### We can just require_once the vendor/autoload.php in index.php to use our dependencies code in our entire project.
 ```
 require_once __DIR__ . "<path>/vendor/autoload.php";
 ```
 
-## Include the autoloader in our composer.json file to load our project.
+#### Include the autoloader in our composer.json file to load our project sourcr code.
 ```
 "autoload": {
    "psr-4": {
