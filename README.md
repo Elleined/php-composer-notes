@@ -31,7 +31,12 @@ composer update
 
 - Update autoloader
 ```
+// For development
 composer dump-autoload
+
+// For production
+composer dump-autoload -o
+// o stands for optimize
 ```
 
 # What is autoloader
