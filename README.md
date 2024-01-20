@@ -57,17 +57,6 @@ require_once __DIR__ . "<path>/vendor/autoload.php";
 }
 ```
 
-# What is superglobals
-- It is accesible anywhere throughout our whole project regardless of the scope.
-##### $_POST
-##### $_GET
-##### $_SESSION
-##### $_COOKIE
-##### $_ENV
-##### $_FILES
-
-
-
 # What is packagist.org
 [Packagist.org](https://packagist.org/) is like the maven repository in java where you can see the dependencies available to be downloaded.
 
